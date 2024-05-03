@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container_form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_form > form {
+  background-color: #ffffff;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+}
+
+.container_form > form {
+  width: 30%;
+  height: 70%;
+
+  margin: 0 auto;
+}
+
+form .header {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 12px;
+
+  border-bottom: 1px solid gainsboro;
+}
+
+.header .t_head {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header .t_head > .exit {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.header .b_head > h5 {
+  font-weight: 400;
+}
+
+form .main_inp {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 12px 10px;
+}
+
+.main_inp .name_inp {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.main_inp .name_inp > input {
+  flex: 1;
+  padding: 12px 8px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  background-color: #f5f6f7;
+}
+
+.email {
+  padding: 12px 8px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 10px;
+  background-color: #f5f6f7;
+}
+
+.password {
+  padding: 12px 8px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 10px;
+  background-color: #f5f6f7;
+}
+
+.gender {
+  padding: 12px 8px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 10px;
+  background-color: #f5f6f7;
+}
+
+.des > p {
+  color: #777777;
+  font-size: 12px;
+  text-align: left;
+}
+
+.des > p > span {
+  color: #385898;
+  cursor: pointer;
+}
+
+.foo_btn {
+  padding: 10px 0;
+}
+
+.foo_btn > button {
+  padding: 10px 70px;
+  background-color: #01a500;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 700;
+}
